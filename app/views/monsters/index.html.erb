@@ -1,0 +1,8 @@
+<h1>Monsters</h1>
+<p><%= link_to 'Add Monster', new_monster_path %></p>
+<% @Monsters.each do |monster| %>
+  <h2><%= monster.name%></h2>
+  <%= link_to 'View Monster', monster_path(monster) %>
+  <%= link_to 'Edit Monster', edit_monster_path(monster) %>
+  <%= link_to 'Delete Monster', monster, method: :delete %>
+<% end %>

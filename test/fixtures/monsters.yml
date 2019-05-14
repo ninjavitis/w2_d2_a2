@@ -1,0 +1,41 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  tags: MyString
+  ac: 1
+  hp: 1
+  ground_speed: 1
+  fly_speed: 1
+  str: 1
+  dex: 1
+  con: 1
+  int: 1
+  wis: 1
+  cha: 1
+  damage_immunity: MyString
+  conition_immunity: MyString
+  senses: MyString
+  languages: MyString
+  challenge: 1
+  action: MyString
+
+two:
+  name: MyString
+  tags: MyString
+  ac: 1
+  hp: 1
+  ground_speed: 1
+  fly_speed: 1
+  str: 1
+  dex: 1
+  con: 1
+  int: 1
+  wis: 1
+  cha: 1
+  damage_immunity: MyString
+  conition_immunity: MyString
+  senses: MyString
+  languages: MyString
+  challenge: 1
+  action: MyString
